@@ -1,27 +1,36 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+
 body {
-	background-color: darkgrey;
+	background-color: #202020;
 }
 
 .head {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: center;
+	font-size: 110%;
 	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 110px;
+}
+
+.head-image {
 	background: url("bg.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 110%;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding-top: 30px;
-	padding-bottom: 110px;
+	opacity: 0.8;
 }
 
 .head-menu {
-	padding-right: 10px;
+	padding-right: 20px;
 	float: right;
 }
 
-.head-button {
-	background: none;
-	border:
+.head-menu-entry{
+	padding-left: 10px;
 }
