@@ -49,7 +49,7 @@ function onReady(func) {
 ///////////////////
 
 function translatePage() {
-	fetch("lang/" + (["de-DE", "en-US"].includes(navigator.language) ? navigator.language : "en-US") + ".json")
+	fetch("lang/" + (["de-DE"].includes(navigator.language) ? navigator.language : "default") + ".json")
 	.then((response) => {
 		return response.json();
 	})

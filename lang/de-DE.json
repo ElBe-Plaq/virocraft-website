@@ -2,5 +2,9 @@
 	"header.name": "ViroCraft Netzwerk",
 	"header.menu.home": "Startseite",
 	"header.menu.about": "Über uns",
-	"description.title": "Über das Projekt"
+	"footer.contact": "Kontakt",
+	"footer.imprint": "Impressum",
+	"footer.privacy_policy": "Datenschutzerklärung",
+	"description.title": "Über das Projekt",
+	"videos.title": "Angesagte Videos"
 }

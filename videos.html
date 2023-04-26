@@ -5,22 +5,25 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ViroCraft Network | Videos</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 	<div class="head head-image">
-		<menu class="head-menu">
-			<button class="head-button">Home</button>
-			<button class="head-button"><a href="./videos.html">Videos</a></button>
-		</menu>
+		<div id="header">
+			<menu class="head-menu">
+				<a class="head-menu-entry" href="index.html" localization-key="header.menu.home">Home</a>
+				<a class="head-menu-entry" href="about.html" localization-key="header.menu.about">About</a>
+			</menu>
+		</div>
 		<h1 localization-key="header">ViroCraft Network</h1>
-		<script src="/translate.js"></script>
 	</div>
 
     <div class="videos-container">
-        <h2>Trending Videos</h2>
+        <h2 localization-key="videos.title">Trending Videos</h2>
         <div class="videos"></div>
-      </div>
+    </div>
+	<script src="/translate.js"></script>
+	<script src="/header.js"></script>
+	<script src="/tiktokapi.js"></script>
 </body>
-<script src="tiktokapi.js"></script>
 </html>
