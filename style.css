@@ -103,3 +103,22 @@ body
 {
   float: right;
 }
+
+.team-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.team-column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.team-image
+{
+  border-radius:15px;
+  margin:0 auto;
+  display:block;
+}
