@@ -1,3 +1,4 @@
 # virocraft-website
 The public website of ViroCraft Studios.
-All changes are on master
+
+Can be subject of change
